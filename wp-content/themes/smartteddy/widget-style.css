@@ -1,0 +1,197 @@
+.subscription__wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    padding: 30px 10px;
+    width: 320px;
+    height: 405px;
+    background: #2F80ED;
+    border-radius: 0px 24px 24px 24px;
+    transform: translate(-50%, -50%);
+    z-index: 9998;
+}
+.fixed__bottom {
+    position: absolute;
+    bottom: 0;
+    z-index: 9999;
+    left: 50%;
+    /*top: 50%;*/
+    display: block;
+    transform: translate(-50%, 0);
+}
+.cookies__wrap{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+.subscrib__wrap{
+    display: flex;
+    margin-bottom: 10px;
+}
+.subscrib__text{
+    padding-left: 15px;
+    width: 150px;
+    font-family: 'Geometria-Regular';
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.subscrib__img{
+    display: block;
+    width: 124px;
+    height: 184px;
+    background: url("./assets/images/icons/subscribe-img.svg") center center no-repeat transparent;
+}
+.tnp__email{
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 300px;
+    height: 45px;
+    font-family: "geometriabold";
+    background: #FFFFFF;
+    border-radius: 24px;
+    font-size: 16px;
+    line-height: 120%;
+    color: #4F4F4F;
+    outline: 0;
+    border: 0;
+}
+.tnp__email::placeholder{
+    font-family: "geometriabold";
+    font-size: 16px;
+    line-height: 120%;
+    color: #BDBDBD;
+}
+.subscrib__privacy-link{
+    margin-left: 10px;
+    font-family: 'Geometria-Regular';
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.subscrib__submit-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 191px;
+    height: 50px;
+    border: 1px dashed #FFFFFF;
+    border-radius: 28px;
+}
+.tnp__submit{
+    width: 178px;
+    height: 40px;
+    background: #FF8543;
+    border-radius: 22px;
+    font-family: "geometriabold";
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+.tnp__submit:hover{
+    background: #77CF08;
+}
+.subscrib__privacy-wrap{
+    display: flex;
+    justify-content: center;
+}
+.tnp__privacy{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.tnp__privacy + label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+}
+.tnp__privacy + label::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 0;
+    border-radius: 50%;
+    background: #FF8543;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+.tnp__privacy:checked+label::before {
+    background-image: url('./assets/images/icons/subscribe-check.svg');
+}
+.tnp__submit-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter__form-wrap{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9996;
+    background: rgba(255, 255, 255, 0.4);
+}
+.subscrib__close-icon{
+    display: block;
+    width: 17px;
+    height: 17px;
+    background: url("./assets/images/icons/subscribe-close.svg") center center no-repeat transparent;
+cursor: pointer;
+}
+.subscrib__close{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+.newsletter__form-wrap{
+    display: none;
+}
+/*cookies*/
+
+.cookie__notice-icon{
+    display: block;
+    width: 17px;
+    height: 17px;
+    background: url("./assets/images/icons/cookies-close.svg");
+    position: absolute;
+    right: 28px;
+    top: 14px;
+    cursor: pointer;
+}
+.cookies__wrap{
+    display: none;
+}
+.woocommerce-message {
+    display: none !important;
+}
+.wpcf7-form.sent .form-feedback-email,
+.wpcf7-form.sent .form-feedback-name,
+.wpcf7-form.sent .form-feedback-text,
+.wpcf7-form.sent .form__feedback-submit{
+    display: none;
+}
+.sent .form__feedback-submit_wrap{
+    display: none !important;
+}
+.wpcf7-form input[type="submit"]:hover{
+    background: #77CF08;
+}

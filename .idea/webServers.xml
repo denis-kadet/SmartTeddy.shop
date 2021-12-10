@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="da7e0e17-281f-4129-8504-3700ebdefe3f" name="shop">
+        <fileTransfer rootFolder="/home/smarvjik/public_html" accessType="SFTP" host="server288.web-hosting.com" port="21098" sshConfigId="24317742-1254-41c1-969f-0273f2eba58d" sshConfig="smarvjik@server288.web-hosting.com:21098 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
