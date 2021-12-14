@@ -182,21 +182,6 @@ function remove_checkout_optional_fields_label($field, $key, $args, $value)
 }
 
 /**
- * @return void
- * @throws Exception
- * Выводит товар в козину при попадании на сайт, если меняется id товара, то и сдесь его надо менять
- */
-//function clear_add_product_to_cart() {
-//    // сначала определяемся с ID товара
-//    $product_id = 22;
-//    if ( !is_page('cart', 'checkout')) {
-//        WC()->cart->empty_cart(); // если хотите сначала очистить корзину
-//        WC()->cart->add_to_cart( $product_id );
-//    }
-//}
-//add_action( 'template_redirect', 'clear_add_product_to_cart' );
-
-/**
  * удаление notice в корзине(cart) при обновлении
  */
 remove_action( 'woocommerce_before_cart', 'woocommerce_output_all_notices', 10 );
