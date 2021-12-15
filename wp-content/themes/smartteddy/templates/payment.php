@@ -41,18 +41,10 @@ Template Name: Payment and shipping
                         <h4 class="ship__title">
                             <span>Free Ground Shipping Offer</span>
                         </h4>
-                        <div class="payment__text">Enjoy free ground shipping on eligible purchases made in the U.S., on
+                        <div class="payment__text ship__text">Enjoy free ground shipping on eligible purchases made in the U.S., on
                             Smartteddy.store.
                         </div>
-                        <ul class="ship__items">
-                            <li class="ship__item payment__text">No adjustments to prior purchases.</li>
-                            <li class="ship__item payment__text">Cannot be redeemed or exchanged for cash.</li>
-                            <li class="ship__item payment__text">Offer is automatically applied at checkout.</li>
-                            <li class="ship__item payment__text">Offer terms and duration are subject to change without
-                                notice.
-                            </li>
-                            <li class="ship__item payment__text">Delivery time: 3-5 business days.</li>
-                        </ul>
+                        <div class="payment__text">Delivery time: 3-5 business days.</div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <h4 class="ship__title">

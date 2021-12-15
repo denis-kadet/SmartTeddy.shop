@@ -55,13 +55,15 @@ pucture.amazonpay-button-sandbox-logo,
     height: 100%;
 }
 .woocommerce-error{
-    padding: 20px 0;
+  margin-bottom: 20px;
+  border: 1px solid #dc3232;
 }
 .woocommerce-error li{
-    font-family: "geometriabold";
+    padding-left: 15px;
+    font-family: 'geometriabold';
     font-size: 20px;
     line-height: 25px;
-    color: darkred;
+    color: #FFFFFF;
 }
 .shipping_address_widget-link{
     display: flex;
@@ -159,6 +161,7 @@ pucture.amazonpay-button-sandbox-logo,
 }
 
 .form__checkout-wrap {
+    position: relative;
     margin-bottom: 30px;
   padding-top: 30px;
     padding-bottom: 30px;
@@ -167,7 +170,29 @@ pucture.amazonpay-button-sandbox-logo,
 }
 
 
-
+.reuired__error{
+    position: absolute;
+    display: block;
+    color: #dc3232;
+    font-size: 1em;
+    font-weight: normal;
+}
+.woocommerce-notices-wrapper {
+    /*display: none !important;*/
+}
+.has-error{
+    display: block;
+    color: #dc3232;
+    font-family: 'geometriabold';
+    font-size: 12px;
+    line-height: 120%;
+}
+#billing_phone-error {
+position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    color: #dc3232 !important;
+}
 /*Кнопка купона*/
 
 .checkout__coupon-wrap input {
@@ -192,7 +217,7 @@ pucture.amazonpay-button-sandbox-logo,
     width: 100px;
     height: 45px;
     border: 0;
-    border-radius: 0 24px 24px 0;
+    border-radius: 24px;
     background: #77CF08;
     cursor: pointer;
     font-size: 16px;
@@ -440,12 +465,13 @@ pucture.amazonpay-button-sandbox-logo,
 /*Checkout img*/
 .checkout__img{
     position: absolute;
-    bottom: -85px;
+    /*bottom: -85px;*/
     left: 82px;
+    bottom: -48px;
 }
-.checkout__img-wrap{
-    position: relative;
-}
+/*.checkout__img-wrap{*/
+/*    position: relative;*/
+/*}*/
 
 .container__bg{
     display: flex;
@@ -810,7 +836,7 @@ pucture.amazonpay-button-sandbox-logo,
     }
     .checkout__img {
         position: absolute;
-        bottom: -90px;
+        bottom: -153px;
         right: 22px;
         z-index: 1;
     }

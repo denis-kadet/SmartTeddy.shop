@@ -32,7 +32,7 @@ if (!$checkout->is_registration_enabled() && $checkout->is_registration_required
 <div class="container form__checkout-wrap">
     <div class="row">
         <div class="col-lg-12">
-            <form name="checkout" method="post" class="checkout row woocommerce-checkout form__checkout-wrap_mob"
+            <form name="checkout" id="checkout__id" method="post" class="checkout row woocommerce-checkout form__checkout-wrap_mob"
                   action="<?php echo esc_url(wc_get_checkout_url()); ?>" enctype="multipart/form-data">
 
                 <?php if ($checkout->get_checkout_fields()) : ?>

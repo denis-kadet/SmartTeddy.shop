@@ -22,19 +22,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 if ( ! $notices ) {
 	return;
 }
-
+//    echo "<pre>";
+//    print_r($notices);
+//    echo "</pre>";
 ?>
 <div class="container">
-    <div class="row">
-        <div class="col-lg-12">
-            <ul class="woocommerce-error" role="alert">
-                <?php foreach ( $notices as $notice ) : ?>
-                    <li<?php echo wc_get_notice_data_attr( $notice ); ?>>
-                        <?php echo wc_kses_notice( $notice['notice'] ); ?>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
-        </div>
-    </div>
+	<div class="row">
+		<div class="col-lg-12">
+			<ul class="woocommerce-error" role="alert">
+				<?php foreach ( $notices as $notice ) : ?>
+					<li<?php echo wc_get_notice_data_attr( $notice ); ?>>
+						<?php echo wc_kses_notice( $notice['notice'] ); ?>
+					</li>
+				<?php endforeach; ?>
+			</ul>
+		</div>
+	</div>
 </div>
+
 

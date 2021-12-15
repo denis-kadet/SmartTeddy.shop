@@ -157,7 +157,13 @@ function custom_override_checkout_fields($fields)
     /**
      * необязательные поля
      */
+    $fields['billing']['billing_email']['required'] = false;
     $fields['billing']['billing_phone']['required'] = false;
+    $fields['billing']['billing_first_name']['required'] = false;
+    $fields['billing']['billing_address_1']['required'] = false;
+    $fields['billing']['billing_city']['required'] = false;
+    $fields['billing']['billing_postcode']['required'] = false;
+    $fields['billing']['billing_state']['required'] = false;
     $fields['order']['order_comments']['required'] = false;
 
 
@@ -169,6 +175,7 @@ function custom_override_checkout_fields($fields)
 }
 
 add_filter('woocommerce_form_field', 'remove_checkout_optional_fields_label', 10, 4);
+
 
 
 function remove_checkout_optional_fields_label($field, $key, $args, $value)
@@ -190,3 +197,17 @@ remove_action( 'woocommerce_before_cart', 'woocommerce_output_all_notices', 10 )
  */
 remove_action( 'woocommerce_cart_is_empty', 'wc_empty_cart_message', 10 );
 
+
+
+//add_action( 'woocommerce_after_checkout_validation', 'truemisha_no_name_numbers', 25, 2 );
+//
+//function truemisha_no_name_numbers( $fields, $errors ){
+//
+//    // проверка, что не содержит цифр
+//    if ( preg_match( '/\\d/', $fields[ 'billing_first_name' ] ) ){
+//        $errors->add( 'validation', 'Ваше имя не должно содержать цифры.. (но это не точно)' );
+//    }
+//
+//}
+
+//add_filter( 'woocommerce_cart_needs_payment', '__return_false' );

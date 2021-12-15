@@ -17,19 +17,19 @@
                                                 their kids as well as develop good habits</span>
                                 </div>
                                 <div class="block-1__price ">
-                                    <p class="desc__price"> $149.95</p>
+                                    <p class="desc__price"> $179.95</p>
                                 </div>
                             </div>
                             <div class="desc__wrap-btn ">
                                 <div class="decs__inner-btn ">
                                     <div class="block-1__btn ">
-                                        <a class="block-1__btn-link " href="<?php echo esc_url( wc_get_cart_url() ); ?> ">
+                                        <a class="block-1__btn-link " href="https://smartteddy.shop/cart/?add-to-cart=22 ">
                                             <p class="btn__link-desc">Order on website</p>
                                             <p class="btn__link-text">Buy now</p>
                                         </a>
                                     </div>
                                     <div class="block-1__btn ">
-                                        <a class="block-1__btn-amazon " href="<?php echo esc_url( wc_get_cart_url() ); ?>">
+                                        <a class="block-1__btn-amazon " href="https://www.amazon.com/dp/B097N8JVQL?ref=myi_title_dp">
                                             <span class="amazon__icon "></span>
                                             <div class="amazon__btn-link ">
                                                 <p class="btn__link-desc ">Аvailable on</p>
@@ -70,19 +70,19 @@
                                                 their kids as well as develop good habits</span>
                                 </div>
                                 <div class="block-1__price ">
-                                    <p class="desc__price "> $149.95</p>
+                                    <p class="desc__price "> $179.95</p>
                                 </div>
                             </div>
                             <div class="desc__wrap-btn ">
                                 <div class="decs__inner-btn ">
                                     <div class="block-1__btn ">
-                                        <a class="block-1__btn-link " href="<?php echo esc_url( wc_get_cart_url() ); ?>  ">
+                                        <a class="block-1__btn-link " href="https://smartteddy.shop/cart/?add-to-cart=22">
                                             <p class="btn__link-desc ">Order on website</p>
                                             <p class="btn__link-text ">Buy now</p>
                                         </a>
                                     </div>
                                     <div class="block-1__btn ">
-                                        <a class="block-1__btn-amazon " href="# ">
+                                        <a class="block-1__btn-amazon " href="https://www.amazon.com/dp/B097N8JVQL?ref=myi_title_dp">
                                             <span class="amazon__icon "></span>
                                             <div class="amazon__btn-link ">
                                                 <p class="btn__link-desc ">Аvailable on</p>
@@ -123,19 +123,19 @@
                                                 their kids as well as develop good habits</span>
                                 </div>
                                 <div class="block-1__price ">
-                                    <p class="desc__price "> $149.95</p>
+                                    <p class="desc__price "> $179.95</p>
                                 </div>
                             </div>
                             <div class="desc__wrap-btn ">
                                 <div class="decs__inner-btn ">
                                     <div class="block-1__btn ">
-                                        <a class="block-1__btn-link " href="<?php echo esc_url( wc_get_cart_url() ); ?>">
+                                        <a class="block-1__btn-link " href="https://smartteddy.shop/cart/?add-to-cart=22">
                                             <p class="btn__link-desc ">Order on website</p>
                                             <p class="btn__link-text ">Buy now</p>
                                         </a>
                                     </div>
                                     <div class="block-1__btn ">
-                                        <a class="block-1__btn-amazon " href="# ">
+                                        <a class="block-1__btn-amazon " href="https://www.amazon.com/dp/B097N8JVQL?ref=myi_title_dp ">
                                             <span class="amazon__icon "></span>
                                             <div class="amazon__btn-link ">
                                                 <p class="btn__link-desc ">Аvailable on</p>
@@ -177,19 +177,19 @@
                                                 their kids as well as develop good habits</span>
                                 </div>
                                 <div class="block-1__price ">
-                                    <p class="desc__price "> $149.95</p>
+                                    <p class="desc__price "> $179.95</p>
                                 </div>
                             </div>
                             <div class="desc__wrap-btn ">
                                 <div class="decs__inner-btn ">
                                     <div class="block-1__btn ">
-                                        <a class="block-1__btn-link " href="<?php echo esc_url( wc_get_cart_url() ); ?> ">
+                                        <a class="block-1__btn-link " href="https://smartteddy.shop/cart/?add-to-cart=22">
                                             <p class="btn__link-desc ">Order on website</p>
                                             <p class="btn__link-text ">Buy now</p>
                                         </a>
                                     </div>
                                     <div class="block-1__btn ">
-                                        <a class="block-1__btn-amazon " href="# ">
+                                        <a class="block-1__btn-amazon " href="https://www.amazon.com/dp/B097N8JVQL?ref=myi_title_dp ">
                                             <span class="amazon__icon "></span>
                                             <div class="amazon__btn-link ">
                                                 <p class="btn__link-desc ">Аvailable on</p>

@@ -14,13 +14,13 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="block-5__wrap-prices">
                             <div class="block-5__prices-text">Order now</div>
-                            <div class="block-5__prices">$149.95</div>
+                            <div class="block-5__prices">$179.95</div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 block-5__btn-wrap_mob">
                         <div class="block-5__btn-wrap">
                             <div class="block-5__btn">
-                                <a class="block-5__btn-amazon" href="<?php echo esc_url( wc_get_cart_url() ); ?>" tabindex="0">
+                                <a class="block-5__btn-amazon" href="https://www.amazon.com/dp/B097N8JVQL?ref=myi_title_dp" tabindex="0">
                                     <span class="amazon__icon"></span>
                                     <div class="amazon__btn-link">
                                         <p class="btn__link-desc">Аvailable on</p>
@@ -30,7 +30,7 @@
                             </div>
                         </div>
                         <div class="block-5__btn block-5__btn-mob">
-                            <a class="block-5__btn-link " href="# " tabindex="0">
+                            <a class="block-5__btn-link " href="https://smartteddy.shop/cart/?add-to-cart=22" tabindex="0">
                                 <p class="btn__link-desc ">Order on website</p>
                                 <p class="btn__link-text ">Buy now</p>
                             </a>

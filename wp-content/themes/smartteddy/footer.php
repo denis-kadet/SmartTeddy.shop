@@ -22,7 +22,7 @@
                     <a href="mailto:hello@smartteddy.store" class="footer__email">hello@smartteddy.store</a>
                 </div>
                 <div class="footer__social-network">
-                    <a href="https://www.instagram.com/my_smartteddy/">
+                    <a href="https://www.youtube.com/watch?v=FMDZ_pY2yGE&t=1s">
                         <div class="social__network-wrap">
                             <span class="social__network-youtube"></span>
                         </div>
@@ -47,9 +47,6 @@
         </div>
     </div>
 </footer>
-
-<?php wp_footer(); ?>
-
 <script>
     // EDIT
     // Attaching to a button click (jQuery 1.7+) and set cookie
@@ -76,3 +73,5 @@
         document.body.style.backgroundColor = '#EEEEEE';
     }
 </script>
+<?php wp_footer(); ?>
+
